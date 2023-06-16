@@ -7,10 +7,13 @@ import Counter from './Counter';
 const App = () => {
 
   return (
+    
     <div id="main">
       <MealsProvider>
-        <MealsList />
-        <Counter />
+        <div>
+          <MealsList />
+          <Counter />
+        </div>
       </MealsProvider>
     </div>
   )
